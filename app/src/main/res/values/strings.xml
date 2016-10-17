@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Mi Lampara</string>
+
+
+    <string name="btn_config">Configuración</string>
+    <string name="txt_boton_prender" translatable="false">ON</string>
+    <string name="txt_boton_apagar" translatable="false">OFF</string>
+    <string name="txt_boton_reiniciar">Reiniciar</string>
+    <string name="crash_toast_text">La aplicación fallo, intenteremos solucionarlo</string>
+    <string name="termino">Tiempo</string>
+    <string name="detener">Detener</string>
+    <string name="reiniciar">Reiniciar</string>
+    <string name="instrucciones">Seleccione los valores y presione ON.</string>
+    <string name="minutos">Minutos</string>
+    <string name="segundos">Segundos</string>
+    <string name="title_activity_colors" translatable="false">Configurar colores</string>
+    <string name="materialcolorpicker__app_name" translatable="false">Android Material Color Picker Dialog</string>
+    <string name="materialcolorpicker__descLib" translatable="false">Material Color Picker Dialog</string>
+    <string name="materialcolorpicker__errHex" translatable="false">Hex Code Format incorrect</string>
+    <string name="materialcolorpicker__inputColor" translatable="false">Color: </string>
+    <string name="materialcolorpicker__btnSelectColor" translatable="false">Select</string>
+    <string name="title_activity_color_picker" translatable="false">ColorPickerActivity</string>
+    <string name="txt_fondo" translatable="false">Fondo</string>
+    <string name="txt_circle" translatable="false">Circulos</string>
+    <string name="txt_instrucciones" translatable="false">Toque el cuadro y seleccione el color que desea.</string>
+    <string name="txt_texto" translatable="false">Texto</string>
+    <string name="txt_on" translatable="false">ON</string>
+    <string name="txt_off" translatable="false">OFF</string>
+    <string name="txt_lineCircle" translatable="false">Línea circulos.</string>
+    <string name="etiqueta_hora" translatable="false">Hrs</string>
+    <string name="etiqueta_minutos" translatable="false">Min</string>
+    <string name="etiqueta_segundos" translatable="false">Seg</string>
+
+</resources>

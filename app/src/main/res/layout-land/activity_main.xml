@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="@color/greyDark"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="@string/instrucciones"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center|center_horizontal"
+        android:orientation="horizontal">
+
+
+        <com.jschdev.miLampara.utils.HoloCircleSeekBar
+            android:id="@+id/horas"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            app:pointer_color="@color/red"
+            app:pointer_halo_color="@color/red"
+            app:pointer_size="14dp"
+            app:text_color="@color/red"
+            app:text_size="40sp"
+            app:wheel_active_color="@color/red"
+            app:wheel_size="11"
+            app:wheel_unactive_color="@color/grey_1" />
+
+        <com.jschdev.miLampara.utils.HoloCircleSeekBar
+            android:id="@+id/minutos"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            app:pointer_color="@color/red"
+            app:pointer_halo_color="@color/red"
+            app:pointer_size="14dp"
+            app:text_color="@color/red"
+            app:text_size="35sp"
+            app:wheel_active_color="@color/red"
+            app:wheel_size="12"
+            app:wheel_unactive_color="@color/grey_1" />
+
+        <com.jschdev.miLampara.utils.HoloCircleSeekBar
+            android:id="@+id/segundos"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            app:pointer_color="@color/red"
+            app:pointer_halo_color="@color/red"
+            app:pointer_size="14dp"
+            app:text_color="@color/red"
+            app:text_size="35sp"
+            app:wheel_active_color="@color/red"
+            app:wheel_size="12"
+            app:wheel_unactive_color="@color/grey_1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_on"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btnRestart"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_restart"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_off"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

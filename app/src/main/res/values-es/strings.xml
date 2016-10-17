@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mi Lampara</string>
+    <string name="txt_boton_reiniciar">reiniciar</string>
+    <string name="termino">tiempo</string>
+    <string name="segundos">segundos</string>
+    <string name="reiniciar">Reiniciar</string>
+    <string name="minutos">Minutos</string>
+    <string name="instrucciones">Seleccione los valores y presione ON.</string>
+    <string name="btn_config">Configuracion</string>
+    <string name="crash_toast_text">La aplicación fallo, intenteremos solucionarlo</string>
+    <string name="detener">Detener</string>
+</resources>

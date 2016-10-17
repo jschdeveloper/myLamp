@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="transparent" type="color">#00FFFFFF</item>
+    <item name="grey" type="color">#555555</item>
+    <item name="greyDark" type="color">#151515</item>
+    <item name="grey_1" type="color">#424242</item>
+    <item name="greyBlack" type="color">#343434</item>
+    <item name="green" type="color">#01DF01</item>
+    <item name="darkgreen" type="color">#FF669900</item>
+    <item name="red" type="color">#F0493D</item>
+    <item name="blue" type="color">#58ACFA</item>
+    <item name="purple" type="color">#F286F7</item>
+    <item name="white" type="color">#FFF</item>
+    <item name="black" type="color">#000</item>
+    <item name="darkBlue" type="color">#2196F3</item>
+    <item name="darker_gray" type="color">#6E6E6E</item>
+
+    <color name="defaultLineColor">#1abc9c</color>
+    <color name="defaultSubLineColor">#7f8c8d</color>
+    <color name="materialcolorpicker__white">#ffffff</color>
+    <color name="materialcolorpicker__red">#f44336</color>
+    <color name="materialcolorpicker__green">#4caf50</color>
+    <color name="materialcolorpicker__blue">#2196f3</color>
+    <color name="materialcolorpicker__grey">#b3b3b3</color>
+    <color name="materialcolorpicker__lightgrey">#d9d9d9</color>
+    <color name="materialcolorpicker__dribble">#ea4c89</color>
+    <color name="materialcolorpicker__dribbledark">#c32361</color>
+    <color name="materialcolorpicker__black">#000000</color>
+    <color name="materialcolorpicker__dialogcolor">#009688</color>
+    <color name="txt_color">#FFF</color>
+    <color name="color_fondo">#6b77ee</color>
+
+</resources>

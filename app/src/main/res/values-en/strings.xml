@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">my Lamp</string>
+    <string name="txt_boton_reiniciar">restart</string>
+    <string name="termino">time</string>
+    <string name="segundos">seconds</string>
+    <string name="reiniciar">Restart</string>
+    <string name="minutos">Minutes</string>
+    <string name="instrucciones">Choose the value and press ON</string>
+    <string name="crash_toast_text">The application failed, we\'re trying to fix it</string>
+    <string name="btn_config">Config</string>
+    <string name="detener">Stop</string>
+</resources>
